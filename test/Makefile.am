@@ -210,10 +210,7 @@ dist_noinst_SCRIPTS = \
 	test_grep_proc.sh \
 	test_json_format.sh \
 	test_line_buffer.sh \
-	test_listview.sh \
-	test_logfile.sh \
 	test_meta.sh \
-	test_mvwattrline.sh \
 	test_prql.sh \
 	test_regex101.sh \
 	test_remote.sh \
@@ -234,7 +231,6 @@ dist_noinst_SCRIPTS = \
 	test_sql_xml_func.sh \
 	test_sql_yaml_func.sh \
 	test_text_file.sh \
-	test_tui.sh \
 	test_view_colors.sh \
 	test_vt52_curses.sh \
 	test_pretty_print.sh
@@ -480,15 +476,12 @@ TESTS = \
 	test_cmds.sh \
 	test_config.sh \
 	test_events.sh \
-	test_listview.sh \
 	test_meta.sh \
-	test_mvwattrline.sh \
 	test_gantt.sh \
 	test_grep_proc.sh \
 	test_grep_proc2 \
 	test_json_format.sh \
 	test_log_accel \
-	test_logfile.sh \
 	test_reltime \
 	test_scripts.sh \
 	test_sessions.sh \
@@ -508,7 +501,6 @@ TESTS = \
 	test_sql_yaml_func.sh \
 	test_text_anonymizer \
 	test_text_file.sh \
-	test_tui.sh \
 	test_data_parser.sh \
 	test_pretty_print.sh \
     test_view_colors.sh \
